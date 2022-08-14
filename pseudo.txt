@@ -1,0 +1,5 @@
+
+Bookmark Organizer is a chrome extension that helps bookmark websites and keep the links stored in user made folders.
+
+The user should be able to create folders, store open tabs inside each folder, delete stored tabs individually, or clear all links within a specific folder, as well as rename and delete folders.
+

@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#folders-container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.folder{
+    margin: 20px;
+    cursor: pointer;
+}
+
+.folder-name--container{
+    width: 64px;
+    height: 2.3em;
+    overflow: hidden;
+    margin-top: -10px;
+    border: 2px solid transparent;
+}
+.folder-name--container:hover{
+    background-color: lightblue;
+    height: auto;
+    overflow: visible;
+    position: absolute;
+}
+
+.folder p{
+    font-size: .8em;
+}
+
+.selected-folder{
+    border: 2px dotted blue;
+}
