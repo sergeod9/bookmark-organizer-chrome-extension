@@ -21,13 +21,14 @@ function addFolder(){
 }
 
 function renderFolders(){
+    foldersContainer.innerHTML =""
     foldersArr = JSON.parse(localStorage.getItem('Folders'))
     if(foldersArr){
-        foldersContainer.innerHTML =""
         for (let folder of foldersArr){
             foldersElements += createFolderWidget(folder.name)//check scripts in index.html
         }
         foldersContainer.innerHTML = foldersElements // append created folder to folders container
+        foldersElements =""
     }
     else{
         foldersArr = []
